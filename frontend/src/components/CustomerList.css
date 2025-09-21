@@ -1,0 +1,44 @@
+.customer-list {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.customer-list h2 {
+  margin-bottom: 16px;
+  color: #1976d2;
+}
+
+.search-input {
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.customer-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fafafa;
+}
+
+.customer-list th, .customer-list td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.customer-list tr {
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.customer-list tr:hover {
+  background: #e3f2fd;
+}
